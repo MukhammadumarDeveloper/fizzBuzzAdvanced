@@ -30,6 +30,7 @@ elFormMain.addEventListener('submit', function (evt) {
       fizzBuzzArray.push(i);
     }
   }
+
   // Assign array legths to element outputs
   elResultFizzLength.textContent = `${fizzArray.length} ta`;
   elResultBuzzLength.textContent = `${buzzArray.length} ta`;
@@ -40,8 +41,8 @@ elFormMain.addEventListener('submit', function (evt) {
   elResultBuzz.textContent = buzzArray.join(', ')
   elResultFizzBuzz.textContent = fizzBuzzArray.join(', ')
 
-  // Console log arrays
-  console.log(fizzArray);
-  console.log(buzzArray);
-  console.log(fizzBuzzArray);
+  /*   Console log arrays
+    console.log(fizzArray);
+    console.log(buzzArray);
+    console.log(fizzBuzzArray); */
 })
