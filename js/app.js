@@ -41,7 +41,7 @@ elFormMain.addEventListener('submit', function (evt) {
   elResultBuzz.textContent = buzzArray.join(', ')
   elResultFizzBuzz.textContent = fizzBuzzArray.join(', ');
 
-  elInputMain = elInputMain.value.trim();
+  elInputMain.value = elInputMain.value.trim();
   /*   Console log arrays
     console.log(fizzArray);
     console.log(buzzArray);
